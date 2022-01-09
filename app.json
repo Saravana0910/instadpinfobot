@@ -1,0 +1,20 @@
+{
+    "name" : "instadpinfobot",
+    "description" : "Telegram bot to get insta DP",
+    "repository" : "https://github.com/Saravana0910/instadpinfobot",
+    "keywords" : ["instagram" , "telegram" , "telegram bot", "python"],
+    "env" : {
+        "BOT_TOKEN" : {
+            "description" : "Enter your telegram bot token",
+            "value" : ""
+        },
+        "APP_NAME" : {
+            "description" : "Enter your heroku app name",
+            "value" : ""
+        },
+        "TELEGRAM_USERNAME" :{
+            "description" : "Enter your telegram username",
+            "value" : ""
+        }
+    }
+}
