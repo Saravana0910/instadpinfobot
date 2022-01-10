@@ -17,7 +17,7 @@ def acc_type(val):
 
 
 def create_caption(user):
-    caption_msg = f'''*Name*: {es(user.full_name,version=2)} \n*Followers*: {es(str(user.followers),version=2)} \n*Following*: {es(str(user.followees),version=2)}\
+    caption_msg = f'''*Name*: {es(user.full_name,version=2)} \n*Followers*: {es(str(user.followers),version=2)} \n*Following*: {es(str(user.followees),version=2) \n*Followers*: {es(str(user.followers),version=2)}\
         \n*Account Type*: {acc_type(user.is_private)} \n\nThanks🙏 For Using This bot '''
 
     return caption_msg
